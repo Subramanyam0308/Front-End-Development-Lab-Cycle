@@ -1,0 +1,44 @@
+*{
+font-family:'Arial',sans-serif;
+}
+
+h1 {
+font-size: 32px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.section-title {
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.text {
+ font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #333;
+}
+.list {
+    font-size: 16px;
+    line-height: 1.5;
+    list-style-type: square;
+    padding-left: 20px;
+}
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.read-more {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    color: #003399;
+}

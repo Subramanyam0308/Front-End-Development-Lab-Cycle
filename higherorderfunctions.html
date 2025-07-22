@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Higher order function</title>
+</head>
+<body>
+<h6>map() demo-(inc by 1)</h6>
+<p id="m"></p>
+<h6>filter() demo-(odd num)</h6>
+<p id="f"></p>
+<h6>reduce() demo-(sum)</h6>
+<p id="r"></p>
+<script>
+const numbers = [5, 6, 7, 8, 9];
+const a = numbers.map(number => number + 1);
+document.getElementById('m').innerHTML = a;
+const b = numbers.filter(number => number % 2 !== 0);
+document.getElementById('f').innerHTML = b;
+const totalValue = numbers.reduce((sum, number) => sum + number, 0);
+document.getElementById('r').innerHTML = totalValue;
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 20px);
+    grid-template-rows: repeat(5, 20px);
+    gap: 2px;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+}
+
+.color1 { background-color: #fa8128; }
+.color2 { background-color: #f0c08a; }
+.color3 { background-color: #964b00; }
